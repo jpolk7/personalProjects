@@ -1,0 +1,57 @@
+body {
+	margin: none;
+	background-color: lightgrey;
+}
+.sectionHeader {
+	background-color: grey;
+	padding: 2px;
+}
+.title {
+	background-color: blue;
+}
+ul {
+	background-color: lightblue;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #222;
+	text-align: center;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: left;
+    justify-content: left;
+}
+li {
+	border: ;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a.active {
+	background-color: #4caf50;
+	color: white;
+}
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+.content {
+	background-color: #349d9a;
+	/*border: 1px solid black;*/
+	height: 10rem;
+}
+.foot {
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	font-size: 1rem;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: .8rem;
+  	background-color: #347E7B;
+}
