@@ -1,25 +1,27 @@
 body {
 	margin: none;
 	background-color: lightgrey;
+	color: white;
 }
 .sectionHeader {
 	background-color: grey;
 	padding: 2px;
+	box-shadow: 0 0 4px 2px rgba(50, 50, 50, 0.5);
 }
 .title {
-	background-color: blue;
+	text-align: center;
+	color: white;
 }
 ul {
 	background-color: lightblue;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	border: 1px solid #222;
 	text-align: center;
 	display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: left;
-    justify-content: left;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 li {
 	border: ;
@@ -39,9 +41,11 @@ li a:hover:not(.active) {
 	color: white;
 }
 .content {
+	padding: .5em;
 	background-color: #349d9a;
 	/*border: 1px solid black;*/
-	height: 10rem;
+	box-shadow: 0 0 4px 2px rgba(50, 50, 50, 0.5);
+	margin-top: .6em;
 }
 .foot {
 	text-align: center;
@@ -54,4 +58,5 @@ li a:hover:not(.active) {
   	left: 0;
   	padding: .8rem;
   	background-color: #347E7B;
+  	box-shadow: 0 0 4px 2px rgba(50, 50, 50, 0.5);
 }
