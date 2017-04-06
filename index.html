@@ -13,10 +13,10 @@
 	<section class="sectionHeader">
 		<h1 class="title">Jordan's Personal Website</h1>
 		<ul class="toolbar">
-			<li class="toolbar-item"><a href="#Home">Home</a></li>
-			<li class="toolbar-item"><a href="#About">About</a></li>
-			<li class="toolbar-item"><a href="#Portfolio">Portfolio</a></li>
-			<li class="toolbar-item"><a href="#Contact">Contact</a></li>
+			<li class="toolbar-item"> <a href="#Home">Home</a> </li>
+			<li class="toolbar-item"> <a href="#About">About</a> </li>
+			<li class="toolbar-item"> <a href="#Portfolio">Portfolio</a> </li>
+			<li class="toolbar-item"> <a href="#Contact">Contact</a> </li>
 		</ul>		
 	</section>
 
@@ -27,20 +27,19 @@
 				
 				<legend>Average or max?</legend>
 
-				<input class="radio" id="average" type="radio" name="aOM" onclick="if(this.checked){avg()}">Average
+				<input class="radio" type="radio" name="aOM" value="average">Average
 				<br>
 
-				<input class="radio" id="max" type="radio" name="aOM" onclick="if(this.checked){max()}">Max 
+				<input class="radio" type="radio" name="aOM" value="max">Max 
 				<br>
 
-				<input style="width: 30rem;" id="input" type="text" name="text" value="Enter 5+ numbers separated by commas">
+				<input style="width: 15rem;" id="input" type="text" name="text">
 
-				<button id="calculate" type="submit" name="submit">
-					Calculate
-				</button>
+				
 
 			</fieldset>
 		</form>
+		<button id="calculate" onclick="averageOrMax();">Calculate</button>
 
 	</div>
 	<div class="content" style="height: 5rem;">
@@ -49,8 +48,7 @@
 
 				<legend>Output</legend>
 				Output = 
-				<span id="output" 
-				style="background-color: white; color: black;">
+				<span id="output" style="background-color: white; color: black;" value="1">
 				blank
 				</span>
 
